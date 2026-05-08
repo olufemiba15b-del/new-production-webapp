@@ -1,4 +1,4 @@
-- name: Deploy via SSH
+ name: Deploy via SSH
   uses: appleboy/ssh-action@v1.2.0
   with:
     host: ${{ secrets.SSH_HOST }}
